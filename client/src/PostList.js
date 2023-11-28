@@ -32,7 +32,7 @@ export default () => {
         </div>)
     });
 
-    return <div className="d-flex flex-row flex-wrap justify-content-between">
+    return (<div className="d-flex flex-row flex-wrap justify-content-between">
         {renderedPosts}
-    </div>
+    </div>);
 };
